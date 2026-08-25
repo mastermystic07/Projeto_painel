@@ -1,8 +1,8 @@
+
 button {
 
-background-color: #427de9; /* Green */
+
   border: none;
-  color: rgb(13, 13, 14);
   padding: 30px 30px;
   text-align: center;
   text-decoration: none;
@@ -10,18 +10,37 @@ background-color: #427de9; /* Green */
   font-size: 80px;
 
 }
-
 .Título {
   text-align: center;
   font-size: 30px;
   color: #0a0a0a;
   margin-top: 20px;
 }
-.botoes {
+.escolha {
+background-color: #fcfbfa;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 70vh;
   gap:150px;
   margin-right: 50px;
+}
+.btn-ichc button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  gap:150px;
+  margin-right: 50px;
+
+}
+.btn-pamb button{
+    background-color: #b3661a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  gap:150px;
+  margin-right: 50px;
+
 }
