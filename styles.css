@@ -1,8 +1,27 @@
-button background-color: #4CAF50; /* Green */
-  border: true;
-  color: white;
-  padding: 30px 32px;
+button {
+
+background-color: #427de9; /* Green */
+  border: none;
+  color: rgb(13, 13, 14);
+  padding: 30px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 80px;
+
+}
+
+.Título {
+  text-align: center;
+  font-size: 30px;
+  color: #0a0a0a;
+  margin-top: 20px;
+}
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  gap:150px;
+  margin-right: 50px;
+}
